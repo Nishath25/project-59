@@ -1,0 +1,41 @@
+.line {
+    margin: 2px;
+    height: 4px;
+    width: 50px;
+    background-color: cornflowerblue;
+    align-content: center;
+}
+
+body {
+    text-align: center;
+    background: linear-gradient(cyan 0%, red 100%)
+}
+
+img {
+    margin: 0;
+    padding-top: 200px;
+    border-radius: 250px;
+    border: 100px;
+}
+
+.menu {
+    list-style: none;
+    font-family: 'Akaya Telivigala', cursive;
+    ;
+    position: absolute;
+    margin-top: 10px;
+    margin-right: 10px;
+    z-index: 20;
+}
+
+.links {
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    float: right;
+}
+
+.links:hover {
+    background-color: red
+}
